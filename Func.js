@@ -5,4 +5,5 @@ function TaylorA(x) {
         return Math.sqrt(1 - x);
     }
     console.log(function TaylorA(1));
+    10
 }
