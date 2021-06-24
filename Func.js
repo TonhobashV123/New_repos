@@ -11,3 +11,5 @@ function TaylorA(x, eps) {
 }
 console.log(TaylorA(0.7, 0)) /// 0,76
 module.exports.TaylorA = TaylorA;
+console.log(function TaylorA(1));
+}
