@@ -4,6 +4,7 @@ function TaylorA(x) {
         x = i;
         return Math.sqrt(1 - x);
     }
-    console.log(function TaylorA(1));
-    10
+    console.log(TaylorA(1));
+
 }
+module.exports.TaylorA = TaylorA;
